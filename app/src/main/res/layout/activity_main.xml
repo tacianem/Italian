@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.rin.italian.MainActivity">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--
+
+    <LinearLayout style="@style/CategoryLinear">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:background="@color/category_numbers">
+
+            <TextView
+                android:id="@+id/numbers"
+                style="@style/CategoryStyle"
+                android:text="@string/category_numbers" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:background="@color/category_family">
+
+            <TextView
+                android:id="@+id/family"
+                style="@style/CategoryStyle"
+                android:text="@string/category_family" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/CategoryLinear">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:background="@color/category_colors">
+
+            <TextView
+                android:id="@+id/colors"
+                style="@style/CategoryStyle"
+                android:text="@string/category_colors" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:background="@color/category_phrases">
+
+            <TextView
+                android:id="@+id/phrases"
+                style="@style/CategoryStyle"
+                android:text="@string/category_phrases" />
+
+        </FrameLayout>
+
+    </LinearLayout> </!-->
+
+</LinearLayout>
